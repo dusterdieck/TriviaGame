@@ -1,0 +1,58 @@
+body {
+	background-image: url(../images/background.jpg);
+
+}
+
+.container {
+	background: #ccc ;
+	font-family: 'Arya', sans-serif;
+	font-size: 48px;
+	padding-bottom: 60px;
+}
+
+#game-title {
+	font-family: 'Frijole', cursive;
+	font-size: 72px;
+}
+
+
+#timer {
+	color: yellow;
+	font-size: 80px;
+	text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+
+}
+
+#game-area {
+
+}
+
+.btn {
+	width: 250px;
+	height: 80px;
+	font-size: 32px;
+}
+
+.answer:hover {
+	background: #1E90FF;
+	cursor: pointer;
+}
+
+hr {
+	width: 100%; 
+	color: black; 
+	height: 1px; 
+	background-color:black;
+}
+
+#timer {
+	visibility: hidden;
+}
+
+.correct {
+	background: #32CD32;
+}
+
+.wrong {
+	background: #FF0000;
+}
